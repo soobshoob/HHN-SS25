@@ -9,7 +9,7 @@ This repository contains solutions to programming exercises written in C, collec
 | `task.c`               | Solution written in C                         |
 | `task.exe`             | Compiled executable (Windows)                 |
 | `screenshot_task.png` | Screenshot of the original textbook exercise  |
-| `screenshot_sode.png`  | Screenshot of the code                        |
+| `screenshot_code.png`  | Screenshot of the code                        |
 | `screenshot_result.png`  | *(optional)* Screenshot of terminal output    |
 
 ## 🔍 How to Navigate
