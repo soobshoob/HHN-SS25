@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0a0e16"/><stop offset="1" stop-color="#0e1420"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.95" cy="0.0" r="0.75">
+    <stop offset="0" stop-color="#34d3b4" stop-opacity="0.16"/>
+    <stop offset="0.55" stop-color="#60a5fa" stop-opacity="0.04"/>
+    <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow2" cx="0.05" cy="1" r="0.6">
+    <stop offset="0" stop-color="#60a5fa" stop-opacity="0.08"/>
+    <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.035"/>
+  </pattern>
+  <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#34d3b4"/><stop offset="1" stop-color="#60a5fa"/>
+  </linearGradient>
+</defs>
+<style>text{font-variant-ligatures:none;font-feature-settings:"liga" 0,"calt" 0}</style>
+<rect width="1200" height="640" fill="url(#bg)"/>
+<rect width="1200" height="640" fill="url(#dots)"/>
+<rect width="1200" height="640" fill="url(#glow)"/>
+<rect width="1200" height="640" fill="url(#glow2)"/>
+<text x="60" y="84" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="600" fill="#34d3b4" text-anchor="start" letter-spacing="2" opacity="1" xml:space="preserve">DATA MODEL</text>
+<text x="60" y="122" font-family="'Inter','DejaVu Sans',sans-serif" font-size="28" font-weight="700" fill="#f3f6fa" text-anchor="start" letter-spacing="-0.5" opacity="1" xml:space="preserve">Structs and the functions built on them</text>
+<text x="60" y="152" font-family="'Inter','DejaVu Sans',sans-serif" font-size="15" font-weight="400" fill="#7d8899" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">Lecture 5 and the exam task model their data with structs; the functions below operate on whole records.</text>
+<rect x="60" y="190" width="525" height="196" rx="12" fill="#0f1521" stroke="#202a3a"/>
+<text x="82" y="224" font-family="'Inter','DejaVu Sans',sans-serif" font-size="17" font-weight="700" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">Complex Arithmetic</text>
+<text x="563" y="224" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" fill="#4b5667" text-anchor="end" letter-spacing="0" opacity="1" xml:space="preserve">complex-arithmetic.c</text>
+<line x1="82" y1="240" x2="563" y2="240" stroke="#1b2432"/>
+<text x="82" y="268" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#60a5fa">typedef struct complex {</tspan></text>
+<text x="82" y="290" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#b6c0cd">    double real;</tspan></text>
+<text x="82" y="312" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#b6c0cd">    double imag;</tspan></text>
+<text x="82" y="334" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#60a5fa">} complex;</tspan></text>
+<line x1="352" y1="254" x2="352" y2="366" stroke="#1b2432"/>
+<circle cx="370" cy="264" r="2.5" fill="#34d3b4"/>
+<text x="382" y="268" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#b6c0cd" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">addition()</text>
+<circle cx="370" cy="290" r="2.5" fill="#34d3b4"/>
+<text x="382" y="294" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#b6c0cd" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">multiplication()</text>
+<circle cx="370" cy="316" r="2.5" fill="#34d3b4"/>
+<text x="382" y="320" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#b6c0cd" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">inverse()</text>
+<circle cx="370" cy="342" r="2.5" fill="#34d3b4"/>
+<text x="382" y="346" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#b6c0cd" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">subtraction(), division()</text>
+<rect x="615" y="190" width="525" height="196" rx="12" fill="#0f1521" stroke="#202a3a"/>
+<text x="637" y="224" font-family="'Inter','DejaVu Sans',sans-serif" font-size="17" font-weight="700" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">Exam Task 2022</text>
+<text x="1118" y="224" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" fill="#4b5667" text-anchor="end" letter-spacing="0" opacity="1" xml:space="preserve">task3.c</text>
+<line x1="637" y1="240" x2="1118" y2="240" stroke="#1b2432"/>
+<text x="637" y="268" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#60a5fa">typedef struct sales_record {</tspan></text>
+<text x="637" y="290" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#b6c0cd">    double a;</tspan></text>
+<text x="637" y="312" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#b6c0cd">    double b;</tspan></text>
+<text x="637" y="334" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#b6c0cd">    double sum;</tspan></text>
+<text x="637" y="356" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#60a5fa">} seles;</tspan></text>
+<line x1="907" y1="254" x2="907" y2="366" stroke="#1b2432"/>
+<circle cx="925" cy="264" r="2.5" fill="#34d3b4"/>
+<text x="937" y="268" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#b6c0cd" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">parse_value(): text → NAN</text>
+<circle cx="925" cy="290" r="2.5" fill="#34d3b4"/>
+<text x="937" y="294" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#b6c0cd" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">miss(): isnan()</text>
+<circle cx="925" cy="316" r="2.5" fill="#34d3b4"/>
+<text x="937" y="320" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#b6c0cd" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">fix_sales(LEN, FRACTION)</text>
+<rect x="60" y="406" width="525" height="196" rx="12" fill="#0f1521" stroke="#202a3a"/>
+<text x="82" y="440" font-family="'Inter','DejaVu Sans',sans-serif" font-size="17" font-weight="700" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">Sorting datas</text>
+<text x="563" y="440" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" fill="#4b5667" text-anchor="end" letter-spacing="0" opacity="1" xml:space="preserve">sorting_datas.c</text>
+<line x1="82" y1="456" x2="563" y2="456" stroke="#1b2432"/>
+<text x="82" y="484" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#60a5fa">struct Person {</tspan></text>
+<text x="82" y="506" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#b6c0cd">    char name[50];</tspan></text>
+<text x="82" y="528" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#b6c0cd">    char city[50];</tspan></text>
+<text x="82" y="550" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#b6c0cd">    struct Birthday date_of_birth;</tspan></text>
+<text x="82" y="572" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#60a5fa">};</tspan></text>
+<line x1="352" y1="470" x2="352" y2="582" stroke="#1b2432"/>
+<circle cx="370" cy="480" r="2.5" fill="#34d3b4"/>
+<text x="382" y="484" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#b6c0cd" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">is_older(): y → m → d</text>
+<circle cx="370" cy="506" r="2.5" fill="#34d3b4"/>
+<text x="382" y="510" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#b6c0cd" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">swap() via pointers</text>
+<circle cx="370" cy="532" r="2.5" fill="#34d3b4"/>
+<text x="382" y="536" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#b6c0cd" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">bubble sort, oldest first</text>
+<rect x="615" y="406" width="525" height="196" rx="12" fill="#0f1521" stroke="#202a3a"/>
+<text x="637" y="440" font-family="'Inter','DejaVu Sans',sans-serif" font-size="17" font-weight="700" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">Super circle</text>
+<text x="1118" y="440" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" fill="#4b5667" text-anchor="end" letter-spacing="0" opacity="1" xml:space="preserve">super_circle.c</text>
+<line x1="637" y1="456" x2="1118" y2="456" stroke="#1b2432"/>
+<text x="637" y="484" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#60a5fa">struct Circle {</tspan></text>
+<text x="637" y="506" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#b6c0cd">    double x;</tspan></text>
+<text x="637" y="528" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#b6c0cd">    double y;</tspan></text>
+<text x="637" y="550" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#b6c0cd">    double radius;</tspan></text>
+<text x="637" y="572" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#60a5fa">};</tspan></text>
+<line x1="907" y1="470" x2="907" y2="582" stroke="#1b2432"/>
+<circle cx="925" cy="480" r="2.5" fill="#34d3b4"/>
+<text x="937" y="484" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#b6c0cd" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">fscanf() into Circle[]</text>
+<circle cx="925" cy="506" r="2.5" fill="#34d3b4"/>
+<text x="937" y="510" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#b6c0cd" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">centre = mean of centres</text>
+<circle cx="925" cy="532" r="2.5" fill="#34d3b4"/>
+<text x="937" y="536" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#b6c0cd" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">radius = max(dist + r)</text>
+</svg>

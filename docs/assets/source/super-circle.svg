@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0a0e16"/><stop offset="1" stop-color="#0e1420"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.95" cy="0.0" r="0.75">
+    <stop offset="0" stop-color="#34d3b4" stop-opacity="0.16"/>
+    <stop offset="0.55" stop-color="#60a5fa" stop-opacity="0.04"/>
+    <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow2" cx="0.05" cy="1" r="0.6">
+    <stop offset="0" stop-color="#60a5fa" stop-opacity="0.08"/>
+    <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.035"/>
+  </pattern>
+  <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#34d3b4"/><stop offset="1" stop-color="#60a5fa"/>
+  </linearGradient>
+</defs>
+<style>text{font-variant-ligatures:none;font-feature-settings:"liga" 0,"calt" 0}</style>
+<rect width="1200" height="640" fill="url(#bg)"/>
+<rect width="1200" height="640" fill="url(#dots)"/>
+<rect width="1200" height="640" fill="url(#glow)"/>
+<rect width="1200" height="640" fill="url(#glow2)"/>
+<rect x="80" y="60" width="520" height="520" rx="12" fill="#0b1019" stroke="#202a3a"/>
+<line x1="145.0" y1="60" x2="145.0" y2="580" stroke="#ffffff" stroke-opacity="0.03"/>
+<line x1="80" y1="515.0" x2="600" y2="515.0" stroke="#ffffff" stroke-opacity="0.03"/>
+<line x1="210.0" y1="60" x2="210.0" y2="580" stroke="#ffffff" stroke-opacity="0.03"/>
+<line x1="80" y1="450.0" x2="600" y2="450.0" stroke="#ffffff" stroke-opacity="0.03"/>
+<line x1="275.0" y1="60" x2="275.0" y2="580" stroke="#ffffff" stroke-opacity="0.03"/>
+<line x1="80" y1="385.0" x2="600" y2="385.0" stroke="#ffffff" stroke-opacity="0.03"/>
+<line x1="340.0" y1="60" x2="340.0" y2="580" stroke="#ffffff" stroke-opacity="0.08"/>
+<line x1="80" y1="320.0" x2="600" y2="320.0" stroke="#ffffff" stroke-opacity="0.08"/>
+<line x1="405.0" y1="60" x2="405.0" y2="580" stroke="#ffffff" stroke-opacity="0.03"/>
+<line x1="80" y1="255.0" x2="600" y2="255.0" stroke="#ffffff" stroke-opacity="0.03"/>
+<line x1="470.0" y1="60" x2="470.0" y2="580" stroke="#ffffff" stroke-opacity="0.03"/>
+<line x1="80" y1="190.0" x2="600" y2="190.0" stroke="#ffffff" stroke-opacity="0.03"/>
+<line x1="535.0" y1="60" x2="535.0" y2="580" stroke="#ffffff" stroke-opacity="0.03"/>
+<line x1="80" y1="125.0" x2="600" y2="125.0" stroke="#ffffff" stroke-opacity="0.03"/>
+<clipPath id="plot"><rect x="80" y="60" width="520" height="520" rx="12"/></clipPath><g clip-path="url(#plot)">
+<circle cx="330.9" cy="318.375" r="239.5639675" fill="#34d3b4" fill-opacity="0.06" stroke="#34d3b4" stroke-width="2" stroke-dasharray="6 5"/>
+<circle cx="372.5" cy="269.625" r="68.25" fill="#60a5fa" fill-opacity="0.1" stroke="#60a5fa" stroke-width="1.6"/>
+<circle cx="372.5" cy="269.625" r="2.5" fill="#60a5fa"/>
+<circle cx="318.875" cy="302.125" r="3.25" fill="#60a5fa" fill-opacity="0.1" stroke="#60a5fa" stroke-width="1.6"/>
+<circle cx="318.875" cy="302.125" r="2.5" fill="#60a5fa"/>
+<circle cx="427.75" cy="378.5" r="30.875" fill="#60a5fa" fill-opacity="0.1" stroke="#60a5fa" stroke-width="1.6"/>
+<circle cx="427.75" cy="378.5" r="2.5" fill="#60a5fa"/>
+<circle cx="195.375" cy="321.625" r="104.0" fill="#60a5fa" fill-opacity="0.16" stroke="#60a5fa" stroke-width="1.6"/>
+<circle cx="195.375" cy="321.625" r="2.5" fill="#60a5fa"/>
+<circle cx="340.0" cy="320.0" r="35.75" fill="#60a5fa" fill-opacity="0.1" stroke="#60a5fa" stroke-width="1.6"/>
+<circle cx="340.0" cy="320.0" r="2.5" fill="#60a5fa"/>
+<line x1="330.9" y1="318.375" x2="91.40488696771979" y2="324.1182880823089" stroke="#f2c46d" stroke-width="1.6"/>
+<circle cx="330.9" cy="318.375" r="4" fill="#34d3b4"/>
+</g>
+<text x="340.9" y="340.375" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#34d3b4" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">centre</text>
+<text x="211.15244348385988" y="311.24664404115447" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#f2c46d" text-anchor="middle" letter-spacing="0" opacity="1" xml:space="preserve">r = 14.74</text>
+<text x="660" y="110" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="600" fill="#34d3b4" text-anchor="start" letter-spacing="2" opacity="1" xml:space="preserve">SUPER CIRCLE  ·  EXERCISE 5.1.3</text>
+<text x="660" y="150" font-family="'Inter','DejaVu Sans',sans-serif" font-size="30" font-weight="700" fill="#f3f6fa" text-anchor="start" letter-spacing="-0.5" opacity="1" xml:space="preserve">One circle that safely</text>
+<text x="660" y="188" font-family="'Inter','DejaVu Sans',sans-serif" font-size="30" font-weight="700" fill="#f3f6fa" text-anchor="start" letter-spacing="-0.5" opacity="1" xml:space="preserve">contains all others</text>
+<circle cx="674" cy="244" r="14" fill="#34d3b4" fill-opacity="0.12" stroke="#34d3b4" stroke-opacity="0.5"/>
+<text x="674" y="249" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#34d3b4" text-anchor="middle" letter-spacing="0" opacity="1" xml:space="preserve">1</text>
+<text x="704" y="250" font-family="'Inter','DejaVu Sans',sans-serif" font-size="16" font-weight="500" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">read circles from input_file.txt</text>
+<text x="704" y="274" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#7d8899" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">into struct Circle { x, y, radius }</text>
+<circle cx="674" cy="318" r="14" fill="#34d3b4" fill-opacity="0.12" stroke="#34d3b4" stroke-opacity="0.5"/>
+<text x="674" y="323" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#34d3b4" text-anchor="middle" letter-spacing="0" opacity="1" xml:space="preserve">2</text>
+<text x="704" y="324" font-family="'Inter','DejaVu Sans',sans-serif" font-size="16" font-weight="500" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">centre = mean of all circle centres</text>
+<text x="704" y="348" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#7d8899" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">(-0.56, 0.10)</text>
+<circle cx="674" cy="392" r="14" fill="#34d3b4" fill-opacity="0.12" stroke="#34d3b4" stroke-opacity="0.5"/>
+<text x="674" y="397" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#34d3b4" text-anchor="middle" letter-spacing="0" opacity="1" xml:space="preserve">3</text>
+<text x="704" y="398" font-family="'Inter','DejaVu Sans',sans-serif" font-size="16" font-weight="500" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">radius = max(distance to centre + r)</text>
+<text x="704" y="422" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#7d8899" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">reached by circle (-8.9, -0.1, r 6.4)</text>
+<text x="660" y="488" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#4b5667" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">program output</text>
+<text x="660" y="512" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">The super circle has center (-0.560000, 0.100000)</text>
+<text x="660" y="532" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">and radius 14.742398</text>
+<text x="660" y="572" font-family="'Inter','DejaVu Sans',sans-serif" font-size="12.5" font-weight="400" fill="#7d8899" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">The task allows a non-minimal circle; the centroid approach is simple and always safe.</text>
+</svg>

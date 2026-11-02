@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0a0e16"/><stop offset="1" stop-color="#0e1420"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.82" cy="0.12" r="0.75">
+    <stop offset="0" stop-color="#34d3b4" stop-opacity="0.16"/>
+    <stop offset="0.55" stop-color="#60a5fa" stop-opacity="0.04"/>
+    <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow2" cx="0.05" cy="1" r="0.6">
+    <stop offset="0" stop-color="#60a5fa" stop-opacity="0.08"/>
+    <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.035"/>
+  </pattern>
+  <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#34d3b4"/><stop offset="1" stop-color="#60a5fa"/>
+  </linearGradient>
+</defs>
+<style>text{font-variant-ligatures:none;font-feature-settings:"liga" 0,"calt" 0}</style>
+<rect width="1200" height="630" fill="url(#bg)"/>
+<rect width="1200" height="630" fill="url(#dots)"/>
+<rect width="1200" height="630" fill="url(#glow)"/>
+<rect width="1200" height="630" fill="url(#glow2)"/>
+<text x="80" y="132" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="14" font-weight="600" fill="#34d3b4" text-anchor="start" letter-spacing="2" opacity="1" xml:space="preserve">HHN  ·  SUMMER SEMESTER 2025</text>
+<text x="80" y="200" font-family="'Inter','DejaVu Sans',sans-serif" font-size="54" font-weight="700" fill="#f3f6fa" text-anchor="start" letter-spacing="-1.2" opacity="1" xml:space="preserve">Programming 2</text>
+<text x="80" y="246" font-family="'Inter','DejaVu Sans',sans-serif" font-size="26" font-weight="500" fill="#7d8899" text-anchor="start" letter-spacing="-0.3" opacity="1" xml:space="preserve">Coursework solutions in C</text>
+<rect x="80" y="276" width="64" height="3" rx="1.5" fill="url(#accentLine)"/>
+<text x="80" y="322" font-family="'Inter','DejaVu Sans',sans-serif" font-size="18" font-weight="400" fill="#aab4c2" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">Recursion, string processing, structs and</text>
+<text x="80" y="349" font-family="'Inter','DejaVu Sans',sans-serif" font-size="18" font-weight="400" fill="#aab4c2" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">file-driven data, including a solved exam</text>
+<text x="80" y="376" font-family="'Inter','DejaVu Sans',sans-serif" font-size="18" font-weight="400" fill="#aab4c2" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">task that reconstructs missing sales data.</text>
+<rect x="80" y="418" width="94.2" height="27" rx="13.5" fill="#34d3b4" fill-opacity="0.08" stroke="#34d3b4" stroke-opacity="0.35"/><text x="92" y="434" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">recursion</text>
+<rect x="182.2" y="418" width="78.6" height="27" rx="13.5" fill="#34d3b4" fill-opacity="0.08" stroke="#34d3b4" stroke-opacity="0.35"/><text x="194.2" y="434" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">strings</text>
+<rect x="268.79999999999995" y="418" width="78.6" height="27" rx="13.5" fill="#34d3b4" fill-opacity="0.08" stroke="#34d3b4" stroke-opacity="0.35"/><text x="280.79999999999995" y="434" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">structs</text>
+<rect x="355.4" y="418" width="86.4" height="27" rx="13.5" fill="#34d3b4" fill-opacity="0.08" stroke="#34d3b4" stroke-opacity="0.35"/><text x="367.4" y="434" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">file I/O</text>
+<rect x="449.79999999999995" y="418" width="47.4" height="27" rx="13.5" fill="#34d3b4" fill-opacity="0.08" stroke="#34d3b4" stroke-opacity="0.35"/><text x="461.79999999999995" y="434" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">NaN</text>
+<text x="80" y="520" font-family="'Inter','DejaVu Sans',sans-serif" font-size="30" font-weight="700" fill="#f3f6fa" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">11</text>
+<text x="80" y="542" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#7d8899" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">programs</text>
+<text x="230" y="520" font-family="'Inter','DejaVu Sans',sans-serif" font-size="30" font-weight="700" fill="#f3f6fa" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">3 + 1</text>
+<text x="230" y="542" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#7d8899" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">lectures + exam</text>
+<text x="380" y="520" font-family="'Inter','DejaVu Sans',sans-serif" font-size="30" font-weight="700" fill="#f3f6fa" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">C</text>
+<text x="380" y="542" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#7d8899" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">gcc · clang · MinGW</text>
+<g>
+<rect x="624" y="96" width="500" height="438" rx="12" fill="#0b1019" stroke="#243042" stroke-width="1"/>
+<path d="M636 96.5 H1112 A11.5 11.5 0 0 1 1123.5 108 V130 H624.5 V108 A11.5 11.5 0 0 1 636 96.5 Z" fill="#111826"/>
+<line x1="624" y1="130" x2="1124" y2="130" stroke="#1d2635"/>
+<circle cx="644" cy="113.0" r="5" fill="#2b3647"/>
+<circle cx="660" cy="113.0" r="5" fill="#2b3647"/>
+<circle cx="676" cy="113.0" r="5" fill="#2b3647"/>
+<text x="874.0" y="117.0" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#7d8899" text-anchor="middle" letter-spacing="0" opacity="1" xml:space="preserve">Exam Task 2022 — task3.c</text>
+<text x="646" y="154.5" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#34d3b4" font-weight="700">$ </tspan><tspan fill="#d7dee8" font-weight="600">cat input_file.txt</tspan></text>
+<text x="646" y="174.1" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">25.2  </tspan><tspan fill="#d7dee8">58.8  </tspan><tspan fill="#d7dee8">84.0  </tspan></text>
+<text x="646" y="193.7" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">18.4  </tspan><tspan fill="#d7dee8">42.9  </tspan><tspan fill="#f08a8a">NAN   </tspan></text>
+<text x="646" y="213.29999999999998" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">30.6  </tspan><tspan fill="#f08a8a">NAN   </tspan><tspan fill="#d7dee8">102.0 </tspan></text>
+<text x="646" y="232.89999999999998" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#f08a8a">NAN   </tspan><tspan fill="#d7dee8">33.5  </tspan><tspan fill="#d7dee8">47.9  </tspan></text>
+<text x="646" y="252.49999999999997" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#f08a8a">NAN   </tspan><tspan fill="#f08a8a">NAN   </tspan><tspan fill="#d7dee8">106.0 </tspan></text>
+<text x="646" y="272.09999999999997" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#f08a8a">NAN   </tspan><tspan fill="#f08a8a">NAN   </tspan><tspan fill="#f08a8a">NAN   </tspan></text>
+<text x="646" y="291.7" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="646" y="311.3" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#34d3b4" font-weight="700">$ </tspan><tspan fill="#d7dee8" font-weight="600">./task3</tspan></text>
+<text x="646" y="330.90000000000003" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#7d8899">Month: 1 Product A: </tspan><tspan fill="#d7dee8">25.2</tspan><tspan fill="#7d8899"> Product B: </tspan><tspan fill="#d7dee8">58.8</tspan><tspan fill="#7d8899"> Total: </tspan><tspan fill="#d7dee8">84.0</tspan></text>
+<text x="646" y="350.50000000000006" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#7d8899">Month: 2 Product A: </tspan><tspan fill="#d7dee8">18.4</tspan><tspan fill="#7d8899"> Product B: </tspan><tspan fill="#d7dee8">42.9</tspan><tspan fill="#7d8899"> Total: </tspan><tspan fill="#34d3b4" font-weight="700">61.3</tspan></text>
+<text x="646" y="370.1000000000001" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#7d8899">Month: 3 Product A: </tspan><tspan fill="#d7dee8">30.6</tspan><tspan fill="#7d8899"> Product B: </tspan><tspan fill="#34d3b4" font-weight="700">71.4</tspan><tspan fill="#7d8899"> Total: </tspan><tspan fill="#d7dee8">102.0</tspan></text>
+<text x="646" y="389.7000000000001" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#7d8899">Month: 4 Product A: </tspan><tspan fill="#34d3b4" font-weight="700">14.4</tspan><tspan fill="#7d8899"> Product B: </tspan><tspan fill="#d7dee8">33.5</tspan><tspan fill="#7d8899"> Total: </tspan><tspan fill="#d7dee8">47.9</tspan></text>
+<text x="646" y="409.3000000000001" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#7d8899">Month: 5 Product A: </tspan><tspan fill="#34d3b4" font-weight="700">31.8</tspan><tspan fill="#7d8899"> Product B: </tspan><tspan fill="#34d3b4" font-weight="700">74.2</tspan><tspan fill="#7d8899"> Total: </tspan><tspan fill="#d7dee8">106.0</tspan></text>
+<text x="646" y="428.90000000000015" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#7d8899">Month: 6 Product A: </tspan><tspan fill="#f08a8a">NAN</tspan><tspan fill="#7d8899"> Product B: </tspan><tspan fill="#f08a8a">NAN</tspan><tspan fill="#7d8899"> Total: </tspan><tspan fill="#f08a8a">NAN</tspan></text>
+<text x="646" y="448.50000000000017" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="646" y="468.1000000000002" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#34d3b4" font-weight="700">$ </tspan><tspan fill="#d7dee8" font-weight="600">./complex-arithmetic</tspan></text>
+<text x="646" y="487.7000000000002" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Result: 0.171179 - 3.091067 i</tspan></text>
+<text x="646" y="507.30000000000024" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12.5" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">The solution of the calculation is 0.171179 - 3.091067 i</tspan></text>
+</g>
+</svg>
